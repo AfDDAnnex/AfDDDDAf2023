@@ -5,11 +5,11 @@ NGDPD,Gross domestic product in U.S. dollars (millions),Produit intérieur brut e
 RealGDPGrowth,Real GDP growth (%),Croissance réelle du PIB (%)
 PPPPC,GDP in purchasing power parity (PPP) dollars per capita,PIB en parité de pouvoir d'achat (PPA) en dollars US par habitant
 EmpRateTot,Employment as a % of population 15+,Emploi en % de la population âgée de 15 ans et plus
+Inflation,"Inflation, average consumer prices","Inflation, prix moyens à la consommation"
 GINI,Gini coefficient (World Bank estimate),Coefficient de Gini (estimations de la Banque Mondiale)
-PovHC190,% of population in extreme poverty ($1.90 a day),% de la population en extrême pauvreté ($1.90 par jour)
+PovHC215,% of population in extreme poverty ($2.15 a day),% de la population en extrême pauvreté ($2.15 par jour)
 HDI,Human development index (HDI),Indice de développement humain (IDH)
 IHDI,Inequality-adjusted HDI (IHDI),Indice de développement humain ajusté selon les inégalités (IDHI)
-RealGDPGrowth,Real GDP growth (%),Croissance réelle du PIB (%)
 PopGrwth,Population growth (%),Croissance de la population (%)
 RlGDPPrCpGr,Real GDP Growth Per Capita (%),Croissance réelle du PIB par habitant (%)
 PopUrban,Urban Population (thousands),Population urbaine (milliers)
@@ -30,17 +30,17 @@ LitRt15T99F,"Adult literacy rate, population 15+ years, female (%)","Taux d'alph
 LitRt15T99M,"Adult literacy rate, population 15+ years, male (%)","Taux d'alphabétisation de la population âgée de 15 ans et plus, de sexe masculin (%)"
 LitRt15T99GPIA,"Adult literacy rate, population 15+ years, adjusted gender parity index (GPIA)","Taux d'alphabétisation de la population âgée de 15 ans et plus, indice ajusté de parité hommes-femmes (IPSA)"
 WittMedLowEd15PL,Percentage of population 15+ with less than primary education (medium scenario),Pourcentage de la population de 15 ans et plus n'ayant pas atteint le niveau primaire (scénario moyen)
-WittMedPrim15PL,Percentage of population 15+ with primary but not secondary education (medium scenario) ,Pourcentage de la population de 15 ans et plus ayant une éducation primaire mais pas secondaire (scénario moyen)
+WittMedPrim15PL,Percentage of population 15+ with primary but not secondary education (medium scenario),Pourcentage de la population de 15 ans et plus ayant une éducation primaire mais pas secondaire (scénario moyen)
 WittMedScndPL15PL,Percentage of population 15+ with at least secondary education (medium scenario),Pourcentage de la population de 15 ans et plus ayant au moins une éducation secondaire (scénario moyen)
 WittAcclLowEd15PL,Percentage of population 15+ with less than primary education (accelerated scenario),Pourcentage de la population âgée de 15 ans et plus n'ayant pas terminé l'enseignement primaire (scénario accéléré)
-WittAcclPrim15PL,Percentage of population 15+ with primary but not secondary education (accelerated scenario) ,Pourcentage de la population âgée de 15 ans et plus ayant une éducation primaire mais pas secondaire (scénario accéléré)
+WittAcclPrim15PL,Percentage of population 15+ with primary but not secondary education (accelerated scenario),Pourcentage de la population âgée de 15 ans et plus ayant une éducation primaire mais pas secondaire (scénario accéléré)
 WittAcclScndPL15PL,Percentage of population 15+ with at least secondary education (accelerated scenario),Pourcentage de la population âgée de 15 ans et plus ayant au moins une éducation secondaire (scénario accéléré)
-WittMedLowEd1529,Percentage of population aged 15-29 with less than primary education (medium scenario) ,Population âgée de 15 à 29 ans n'ayant pas atteint le niveau primaire (scénario moyen)
+WittMedLowEd1529,Percentage of population aged 15-29 with less than primary education (medium scenario),Population âgée de 15 à 29 ans n'ayant pas atteint le niveau primaire (scénario moyen)
 WittMedPrim1529,Percentage of population aged 15-29 with primary but not secondary education (medium scenario),Population âgée de 15 à 29 ans ayant une éducation primaire mais pas secondaire (scénario moyen)
-WittMedScndPL1529,Percentage of population aged 15-29 with at least secondary education (medium scenario) ,Population âgée de 15 à 29 ans ayant au moins une éducation secondaire (scénario moyen)
-WittAcclLowEd1529,Percentage of population aged 15-29 with less than primary education (accelerated scenario) ,Population âgée de 15 à 29 ans n'ayant pas atteint le niveau primaire (scénario accéléré)
+WittMedScndPL1529,Percentage of population aged 15-29 with at least secondary education (medium scenario),Population âgée de 15 à 29 ans ayant au moins une éducation secondaire (scénario moyen)
+WittAcclLowEd1529,Percentage of population aged 15-29 with less than primary education (accelerated scenario),Population âgée de 15 à 29 ans n'ayant pas atteint le niveau primaire (scénario accéléré)
 WittAcclPrim1529,Percentage of population aged 15-29 with primary but not secondary education (accelerated scenario),Population âgée de 15 à 29 ans ayant une éducation primaire mais pas secondaire (scénario accéléré)
-WittAcclScndPL1529,Percentage of population aged 15-29 with at least secondary education (accelerated scenario) ,Population âgée de 15 à 29 ans ayant au moins une éducation secondaire (scénario accéléré)
+WittAcclScndPL1529,Percentage of population aged 15-29 with at least secondary education (accelerated scenario),Population âgée de 15 à 29 ans ayant au moins une éducation secondaire (scénario accéléré)
 EmpRateFemale,"Employment as a % of population 15+, females","Emploi en % de la population âgée de 15 ans et plus, de sexe féminin"
 EmpRateMale,"Employment as a % of population 15+, males","Emploi en % de la population âgée de 15 ans et plus, de sexe masculin"
 VulnRate,Percentage of workers in vulnerable employment,Pourcentage de travailleurs ayant un emploi vulnérable
@@ -62,8 +62,8 @@ AgrEmpPerTot,Employment in agriculture as a % of total,Emploi dans l'agriculture
 IndEmpPerTot,Employment in industry as a % of total,Emploi dans l'industrie en % du total
 SrvEmpPerTot,Employment in services as a % of total,Emploi dans les services en % du total
 ManfEmpPerTot,Employment in manufacturing (incl. in industry) as a % of total,Emploi dans le secteur manufacturier (y compris dans l'industrie) en % du total
-PovHC320,% of population below LMIC poverty rates ($3.20 a day),"% de la population vivant sous 3.20 USD par jour, le seuil de pauvreté des pays à revenu intermédiaire de la tranche inférieure"
-PovHC550,% of population below UMIC poverty rates ($5.50 a day),"% de la population vivant sous 3.20 USD par jour, le seuil de pauvreté des pays à revenu intermédiaire de la tranche supérieure"
+PovHC365,% of population below LMIC poverty rates ($3.65 a day),"% de la population vivant sous $3.65 par jour, le seuil de pauvreté des pays à revenu intermédiaire de la tranche inférieure"
+PovHC685,% of population below UMIC poverty rates ($6.85 a day),"% de la population vivant sous $6.85 par jour, le seuil de pauvreté des pays à revenu intermédiaire de la tranche supérieure"
 ShareTop20,Income share held by the 20% of the population with highest incomes,Part des revenus détenus par les 20% de la population ayant les revenus les plus élevés (estimation de la Banque mondiale)
 WrkPovRate15PL,"Working poverty rate, both sexes (population 15+)","Taux de pauvreté des travailleurs, les deux sexes (population de 15 ans et plus)"
 WrkPovRateFem15PL,"Working poverty rate, females (population 15+)","Taux de pauvreté des travailleurs, de sexe féminin (population de 15 ans et plus)"
@@ -71,14 +71,14 @@ WrkPovRateMal15PL,"Working poverty rate, males (population 15+)","Taux de pauvre
 WrkPovRate1529,"Working poverty rate, both sexes (population 15-29)","Taux de pauvreté des travailleurs, les deux sexes (population de 15 à 29 ans)"
 WrkPovRateFem1529,"Working poverty rate, females (population 15-29)","Taux de pauvreté des travailleurs, de sexe féminin (population de 15 à 29 ans)"
 WrkPovRateMal1529,"Working poverty rate, males (population 15-29)","Taux de pauvreté des travailleurs, de sexe masculin (population de 15 à 29 ans)"
-OutputPerWrkPPP,Output per worker (GDP constant 2011 international $ in PPP),Production par travailleur (PIB en dollars internationaux constants de 2011 en PPA)
+OutputPerWrkPPP,Output per worker (GDP constant 2017 international $ in PPP),Production par travailleur (PIB en dollars internationaux constants de 2017 en PPA)
 GDI,Gender Development Index (GDI),Indice de développement de genre (IDG)
 GII,Gender Inequality Index (GII),L'Indice d'inégalité de genre (IIG)
 SIGI,Social Institutions and Gender Index (SIGI) 2019,Indicateur Institutions Sociales et Égalité Femmes-Hommes (SIGI)
 SIGIFAM,Discrimination in the family (SIGI subindex) 2019,Discriminations au sein de la famille (sous-indice SIGI)
 SIGIPHYS,Restricted physical integrity (SIGI subindex) 2019,Atteintes à l'intégrité physique (sous-indice SIGI)
-SIGICIV,Restricted civil liberties (SIGI subindex) 2019,Atteintes aux libertés civiles (sous-indice SIGI)
 SIGIRES,Restricted access to productive and financial resources (SIGI subindex) 2019,Accès restreint aux ressources productives et financières (sous-indice SIGI)
+SIGICIV,Restricted civil liberties (SIGI subindex) 2019,Atteintes aux libertés civiles (sous-indice SIGI)
 IntntSubsPer100,Fixed(wired)-broadband subscriptions per 100 inhabitants,Abonnements Internet à haut débit fixe
 IntntUsePct,Percentage of the population using the Internet,Pourcentage de la population utilisant l'Internet
 MobileSubsPer100,Mobile-cellular telephone subscriptions per 100 inhabitants,Abonnements téléphone mobile et cellulaire par 100 habitants
@@ -95,9 +95,9 @@ EmailLrgFm,Percentage of large firms using email to interact with clients/suppli
 EmailMedFm,Percentage of medium-sized firms using email to interact with clients/suppliers,Pourcentage d'entreprises de taille moyenne utilisant le courrier électronique pour interagir avec leurs clients / fournisseurs
 EmailSmlFm,Percentage of small firms using email to interact with clients/suppliers,"Pourcentage de petites entreprises utilisant le courrier électronique pour interagir avec les clients / fournisseurs, mesure la plus récente"
 EmailTotFm,Percentage of firms of all sizes using email to interact with clients/suppliers,Pourcentage d'entreprises de toutes tailles utilisant le courrier électronique pour interagir avec les clients / fournisseurs
-ExpICTSrv,"Total exports of ICT services, millions of USD","Exportations totales de services TIC, millions USD"
+ExpICTSrv,"Total exports of ICT services, millions of USD","Exportations totales de services TIC, millions de dollars US"
 ExpICTSrvPrp,Percentage of total trade in services,Pourcentage du commerce total des services
-ExpDigSrv,"Total exports of digital services, millions of USD","Exportations totales de services numériques, millions USD"
+ExpDigSrv,"Total exports of digital services, millions of USD","Exportations totales de services numériques, millions de dollars US"
 ExpDigSrvPrp,Exports of digital services as a % of total exports,Exportations de services numériques en % des exportations totales
 B2CDevInd,UNCTAD B2C E-commerce Index,Indice du commerce électronique B2C de la CNUCED
 LifeExpTot,Life expectancy at birth (years),Espérance de vie à la naissance (années)
@@ -114,44 +114,45 @@ PositiveAffect,Positive affect,Affect positif
 FreedomLife,Freedom to make life choices,Liberté de faire des choix de vie
 Generosity,Generosity,Générosité
 SocialSupp,Social support,Soutien sociale
-CnsExp,Final consumption expenditure (% of GDP),Dépense de consommation finale
-CnsExpPub,"Final consumption expenditure (public, % of GDP)",Dépense de consommation finale (publique)
-CnsExpPrv,"Final consumption expenditure (private, % of GDP)",Dépense de consommation finale (privée)
-GFCF,Gross fixed capital formation (% of GDP),Formation brute de capital fixe
-GFCFPub,"Gross fixed capital formation (public, % of GDP)",Formation brute de capital fixe (public)
-GFCFPrv,"Gross fixed capital formation (private, % of GDP)",Formation brute de capital fixe (privé)
-InvChg,Changes in inventories (% of GDP),Variations des stocks
-FrgnBal,Foreign balance (% of GDP),Balance extérieur
-ImpGdsSrv,Imports of goods and services (% of GDP),Importations de biens et services
-ExpGdsSrv,Exports of goods and services (% of GDP),Exportations de biens et services
-GrthDCmpNC,Final consumption expenditure (% of GDP growth),Dépense de consommation finale (% de croissance du PIB)
-GrthDCmpNFI,Gross fixed capital formation (% of GDP growth),Formation brute de capital fixe (% de croissance du PIB)
-GrthDCmpNINV,Changes in inventories (% of GDP growth),Variations des stocks (% de croissance du PIB)
-GrthDCmpNM,Imports of goods and services (% of GDP growth),Importations de biens et services (% de croissance du PIB)
-GrthDCmpNX,Exports of goods and services (% of GDP growth),Exportations de biens et services (% de croissance du PIB)
-GrthDCmpNFB,Foreign balance (% of GDP growth),Balance extérieure (% de croissance du PIB)
+CnsExp,Final consumption expenditure as a % of GDP,Dépense de consommation finale
+GFCF,Gross fixed capital formation as a % of GDP,Formation brute de capital fixe
+InvChg,Changes in inventories as a % of GDP,Variations des stocks
+FrgnBal,Foreign balance as a % of GDP,Balance extérieur
+ImpGdsSrv,Imports of goods and services as a % of GDP,Importations de biens et services
+ExpGdsSrv,Exports of goods and services as a % of GDP,Exportations de biens et services
+GrthDCmpNC,Final consumption expenditure (% of 5-year GDP growth),Dépense de consommation finale (% de la croissance du PIB sur 5 ans)
+GrthDCmpNFI,Gross fixed capital formation (% of 5-year GDP growth),Formation brute de capital fixe (% de la croissance du PIB sur 5 ans)
+GrthDCmpNINV,Changes in inventories (% of 5-year GDP growth),Variations des stocks (% de la croissance du PIB sur 5 ans)
+GrthDCmpNFB,Foreign balance (% of 5-year GDP growth),Solde extérieure (% de la croissance du PIB sur 5 ans)
+GrthDCmpNM,Imports of goods and services (% of 5-year GDP growth),Importations de biens et services (% de la croissance du PIB sur 5 ans)
+GrthDCmpNX,Exports of goods and services (% of 5-year GDP growth),Exportations de biens et services (% de la croissance du PIB sur 5 ans)
 GovRevPerGDP,General government revenue as a % of GDP,Recettes des administrations publiques en % du PIB
 TaxPerGDP,General government taxes as a % of GDP,Impôts des administrations publiques en % du PIB
-GrantsPerGDP,"General government revenue, grants as a % of GDP","Recettes des administrations publiques, dons en % du PIB"
-ExpendPerGDP,General government expenditure as a % of GDP,Total des dépenses des administrations publiques en % du PIB
-GrossDebtPerGDP,General government gross debt as a % of GDP,Dette brute des administrations publiques en % du PIB
-ExpUnproc,Total exports of unprocessed goods (millions of USD),Exportations totales de produits non transformés (millions USD)
-ExpSemiProc,Total exports of semi-processed goods (millions of USD),Exportations totales de produits semi-transformés (millions USD)
-ExpFullyProc,Total exports of fully processed goods (millions of USD),Exportations totales de produits transformés (millions USD)
-ExpAllProc,Total exports of processed and unprocessed goods (millions of USD),Exportations totales de produits transformés et non transformés (millions USD)
+GovGrantsPerGDP,"General government revenue, grants as a % of GDP","Recettes des administrations publiques, dons en % du PIB"
+GovExpendPerGDP,General government expenditure as a % of GDP,Total des dépenses des administrations publiques en % du PIB
+GovGrossDebtPerGDP,General government gross debt as a % of GDP,Dette brute des administrations publiques en % du PIB
+GovRevUSD,"General government revenue (millions of USD), 2021",Recettes des administrations publiques (millions de dollars US)
+TaxUSD,"General government taxes (millions of USD), 2021",Impôts des administrations publiques (millions de dollars US)
+GovGrantsUSD,"General government revenue, grants (millions of USD), 2021","Recettes des administrations publiques, dons (millions de dollars US)"
+GovExpendUSD,"General government expenditure (millions of USD), 2021",Total des dépenses des administrations publiques (millions de dollars US)
+GovGrossDebtUSD,"General government gross debt (millions of USD), 2021",Dette brute des administrations publiques (millions de dollars US)
+ExpUnproc,Total exports of unprocessed goods (millions of USD),Exportations totales de produits non transformés (millions de dollars US)
+ExpSemiProc,Total exports of semi-processed goods (millions of USD),Exportations totales de produits semi-transformés (millions de dollars US)
+ExpFullyProc,Total exports of fully processed goods (millions of USD),Exportations totales de produits transformés (millions de dollars US)
+ExpAllProc,Total exports of processed and unprocessed goods (millions of USD),Exportations totales de produits transformés et non transformés (millions de dollars US)
 ImpUnproc,Total imports of unprocessed goods (millions of USD),Importations totales de produits non transformés (millions de dollars US)
 ImpSemiProc,Total imports of semi-processed goods (millions of USD),Importations totales de produits semi-transformés (millions de dollars US)
 ImpFullyProc,Total imports of fully processed goods (millions of USD),Importations totales de produits transformés (millions de dollars US)
 ImpAllProc,Total imports of processed and unprocessed goods (millions of USD),Importations totales de produits transformés et non transformés (millions de dollars US)
 ExpProd1,Product category among 4-digit HS96 classification accounting for the highest share of total value of exports.,Catégorie de produits avec la plus grande part des exportations totales
-ExpProd2,Product category among 4-digit HS96 classification accounting for the second highest share of total value of exports.,Catégorie de produits constituant la deuxième plus grande % des exportations totales
-ExpProd3,Product category among 4-digit HS96 classification accounting for the third highest share of total value of exports.,Catégorie de produits constituant la troisième plus grande % des exportations totales
-ExpProd4,Product category among 4-digit HS96 classification accounting for the fourth highest share of total value of exports.,Catégorie de produits constituant la quatrième plus grande % des exportations totales
-ExpProd5,Product category among 4-digit HS96 classification accounting for the fifth highest share of total value of exports.,Catégorie de produits constituant la cinquième plus grande % des exportations totales
 ExpProdPct1,% of exports ascribed to 4-digit HS96 product category with highest level of exports,% des exportations attribuées à la catégorie de produits SH96 à 4 chiffres avec le plus haut niveau d'exportations
+ExpProd2,Product category among 4-digit HS96 classification accounting for the second highest share of total value of exports.,Catégorie de produits constituant la deuxième plus grande % des exportations totales
 ExpProdPct2,% of exports ascribed to 4-digit HS96 product category with the second highest level of exports,% des exportations attribuées à la catégorie de produits SH96 à 4 chiffres avec le deuxième niveau d'exportations le plus élevé
+ExpProd3,Product category among 4-digit HS96 classification accounting for the third highest share of total value of exports.,Catégorie de produits constituant la troisième plus grande % des exportations totales
 ExpProdPct3,% of exports ascribed to 4-digit HS96 product category with the third highest level of exports,% des exportations attribuées à la catégorie de produits SH96 à 4 chiffres avec le troisième niveau d'exportations le plus élevé
+ExpProd4,Product category among 4-digit HS96 classification accounting for the fourth highest share of total value of exports.,Catégorie de produits constituant la quatrième plus grande % des exportations totales
 ExpProdPct4,% of exports ascribed to 4-digit HS96 product category with the fourth highest level of exports,% des exportations attribuées à la catégorie de produits SH96 à 4 chiffres avec le quatrième niveau d'exportations le plus élevé
+ExpProd5,Product category among 4-digit HS96 classification accounting for the fifth highest share of total value of exports.,Catégorie de produits constituant la cinquième plus grande % des exportations totales
 ExpProdPct5,% of exports ascribed to 4-digit HS96 product category with the fifth highest level of exports,% des exportations attribuées à la catégorie de produits SH96 à 4 chiffres avec le cinquième niveau d'exportations le plus élevé
 NumPrdU75,Number of products amounting to 75% of total exports,Nombre de produits exportés représentant 75% des exportations totales
 NumPrdU90,Number of products amounting to 90% of total exports,Nombre de produits exportés représentant 90% des exportations totales
@@ -162,110 +163,200 @@ ContExpPct,"Exports to countries in same continent, as a % of total exports","Ex
 CHNExpPct,"Exports to China, as a % of total exports","Exportations vers la Chine, en % du total des exportations"
 EUExpPct,"Exports to EU countries, as a % of total exports","Exportations vers les pays de l'UE, en % du total des exportations"
 USAExpPct,"Exports to USA, as a % of total exports","Exportations vers les États-Unis, en % du total des exportations"
-RECImpPct,"Imports to countries in same REC, as a % of total imports","Importations provenant des pays de la même CER, en % du total des importations"
-AUCRegImpPct,"Imports to countries in same AUC Region, as a % of total imports","Importations provenant des pays de la même région de la CUA, en % du total des importations"
-ContImpPct,"Imports to countries in same continent, as a % of total imports","Importations provenant des pays du même continent, en % du total des importations"
-CHNImpPct,"Imports to China, as a % of total imports","Importations provenant de la Chine, en % du total des importations"
-EUImpPct,"Imports to EU countries, as a % of total imports","Importations provenant des pays de l'UE, en % du total des importations"
-USAImpPct,"Imports to USA, as a % of total imports","Importations provenant des États-Unis, en % du total des importations"
+RECImpPct,"Imports from countries in same REC, as a % of total imports","Importations provenant des pays de la même CER, en % du total des importations"
+AUCRegImpPct,"Imports from countries in same AUC Region, as a % of total imports","Importations provenant des pays de la même région de la CUA, en % du total des importations"
+ContImpPct,"Imports from countries in same continent, as a % of total imports","Importations provenant des pays du même continent, en % du total des importations"
+CHNImpPct,"Imports from China, as a % of total imports","Importations provenant de la Chine, en % du total des importations"
+EUImpPct,"Imports from EU countries, as a % of total imports","Importations provenant des pays de l'UE, en % du total des importations"
+USAImpPct,"Imports from USA, as a % of total imports","Importations provenant des États-Unis, en % du total des importations"
 IntraCont,Intra-continental trade in intermediate goods (millions of USD),Commerce intra-continental de biens intermédiaires (millions de dollars US)
 ExtraCont,Extra-continental trade in intermediate goods (millions of USD),Commerce extra-continental de biens intermédiaires (millions de dollars US)
 PercIntra,Intra-continental trade in intermediate goods as a % of all trade in intermediate goods,Commerce intra-continental de biens intermédiaires en % du total des échanges de biens intermédiaires
-PortfolioInFlPGD,Portfolio investment inflows as a % of GDP,Entrées des investissements de portefeuille en % du PIB
-ODAPGD,Net Official Development Assistance (ODA) inflows as a % of GDP,Entrées nettes d'aide publique au développement (APD) en % du PIB
+IMFFDIPGD,Foreign Direct Investment (FDI) inflows as a % of GDP - asset/liability IMF data,Entrées d’investissements directs étrangers (IDE) en % du PIB - Données actif/passif du FMI
 UNCTADFDIPGD,Foreign Direct Investment (FDI) inflows as a % of GDP,Entrées d’investissements directs étrangers (IDE) en % du PIB
+PortfolioInFlPGD,Portfolio investment inflows as a % of GDP,Entrées des investissements de portefeuille en % du PIB
+OtherInFlPGD,"Financial Account, Other Investment, Net Incurrence of Liabilities as a % of GDP","Compte financier, autres investissements, accroissement net des passifs en % du PIB "
+ODAPGD,Net Official Development Assistance (ODA) inflows as a % of GDP,Entrées nettes d'aide publique au développement (APD) en % du PIB
 RemitPGD,Remittances inflows as a % of GDP,Entrées de transferts des migrants en % du PIB
 TotalFinInflowsPGD,Total financial inflows as a % of GDP,Entrées financières totales en % du PIB
-GrNatSavPrvPGD,Gross private saving as a % of GDP,Épargne privée brute en % du PIB
-PortfolioInFl,Portfolio investment inflows (millions of USD),Entrées des investissements de portefeuille (millions USD)
-ODA,Net Official Development Assistance (ODA) inflows (millions of USD),Entrées nettes d'aide publique au développement (APD) (millions USD)
-UNCTADFDI,Foreign Direct Investment (FDI) inflows (millions of USD),Entrées d’investissements directs étrangers (IDE) (millions USD)
-Remit,Remittances inflows (millions of USD),Entrées de transferts des migrants (millions USD)
-TotalFinInflows,Total financial inflows (millions of USD),Entrées financières totales (millions USD)
-GrNatSavPrv,Gross private saving (millions of USD),Épargne privée brute (millions USD)
-CountryArea,Country Area (thousands of ha),Superficie (milliers d'hectares)
-AgricLand,Agricultural land (thousands of ha),Terres agricoles (milliers d'hectares)
-CropLand,Cropland (thousands of ha),Terres cultivées (milliers d'hectares)
-ForestLand,Forest land (thousands of ha),Terres forestières (milliers d'hectares)
-InlndWtrs,Inland waters (thousands of ha),Eaux intérieures (milliers d'hectares)
-AgricProd,Agricultural Production (millions of USD),Production agricole (millions USD)
-CerealProd,Cereal Production (millions of USD),Production céréalière (millions USD)
-CropProd,Crops Production (millions of USD),Production des cultures (millions USD)
-FoodProd,Food Production (millions of USD),Production alimentaire (millions USD)
-LivStkProd,Livestock Production (millions of USD),Production animale (millions USD)
-NFoodProd,Non Food Agricultural Production (millions of USD),Production agricole non alimentaire (millions USD)
-FoodSupp,Food supply (kcal/capita/day),Approvisionnement alimentaire (kcal / habitant / jour)
-NitUse,Agricultural use of nutrient nitrogen (tonnes),Usage agricole d'azote nutritif (tonnes)
-NitUseArea,Agricultural use of nutrient nitrogen per area of cropland (tonnes/ha),Usage agricole d'azote nutritif par superficie de terres cultivées (tonnes / ha)
+IMFFDI,Foreign Direct Investment (FDI) inflows (millions of USD) - asset/liability IMF data,Entrées d’investissements directs étrangers (IDE) (millions de dollars US) - Données actif/passif du FMI
+UNCTADFDI,Foreign Direct Investment (FDI) inflows (millions of USD),Entrées d’investissements directs étrangers (IDE) (millions de dollars US)
+PortfolioInFl,Portfolio investment inflows (millions of USD),Entrées des investissements de portefeuille (millions de dollars US)
+OtherInFl,"Financial Account, Other Investment, Net Incurrence of Liabilities, US Dollars","Compte financier, Autres investissements, Accroissement net des passifs, millions de dollars US"
+ODA,Net Official Development Assistance (ODA) inflows (millions of USD),Entrées nettes d'aide publique au développement (APD) (millions de dollars US)
+Remit,Remittances inflows (millions of USD),Entrées de transferts des migrants (millions de dollars US)
+TotalFinInflows,Total financial inflows (millions of USD),Entrées financières totales (millions de dollars US)
+IGOVPGD,General government investment (gross fixed capital formation) as a % of GDP,Investissement des administrations publiques (formation brute de capital fixe) en % du PIB
+IPPPPGD,Public-private partnership (PPP) investment as a % of GDP,Investissements dans les partenariats public-privé (PPP) en % du PIB
+IPRIVPGD,Private investment (gross fixed capital formation) as a % of GDP,Investissement privé (formation brute de capital fixe) en % du PIB
+KGOVPGD,General government capital stock as a % of GDP,Stock de capital des administrations publiques en % du PIB
+KPPPPGD,Public-private partnership (PPP) capital stock as a % of GDP,Stock de capital des partenariats public-privé (PPP) en % du PIB
+KPRIVPGD,Private capital stock as a % of GDP,Stock de capital privé en % du PIB
+IGOVUSD,General government investment (gross fixed capital formation) (millions of USD),Investissement des administrations publiques (formation brute de capital fixe) (millions de dollars US)
+IPPPUSD,Public-private partnership (PPP) investment (millions of USD),Investissement en partenariat public-privé (PPP) (millions de dollars US)
+IPRIVUSD,Private investment (gross fixed capital formation) (millions of USD),Investissement privé (formation brute de capital fixe) (millions de dollars US)
+KGOVUSD,General government capital stock (millions of USD),Stock de capital des administrations publiques (millions de dollars US)
+KPPPUSD,Public-private partnership (PPP) capital stock (millions of USD),Stock de capital du partenariat public-privé (PPP) (millions de dollars)
+KPRIVUSD,Private capital stock (millions of USD),Stock de capital privé (millions de dollars US)
+DILiabPGD,Direct Investment Liabilities as a % of GDP,Passifs d'investissement direct en % du PIB
+DIDebitPGD,Direct Investment Debit as a % of GDP,Débit d'investissement direct en % du PIB
+DIAssetPGD,Direct Investment Assets as a % of GDP,Actifs d'investissement direct en % du PIB
+DICredPGD,Direct Investment Credit as a % of GDP,Crédit d'investissement direct en % du PIB
+DILiabUSD,"Direct Investment Liabilities, millions of USD","Passifs d'investissement direct, millions de dollars US"
+DIDebitUSD,"Direct Investment Debit, millions of USD","Débit d'investissement direct, millions de dollars US"
+DIAssetUSD,"Direct Investment Assets, millions of USD","Actifs d'investissement direct, millions de dollars US"
+DICredUSD,"Direct Investment Credit, millions of USD","Crédit d'investissement direct, millions de dollars US"
+ROICredAsset,Return on outward direct investment (credits over two-year average assets X 100),Rendement des investissements directs sortants (crédits divisés par la moyenne des actifs sur deux ans X 100)
+ROIDebitLiab,Return on inward direct investment (debits over two-year average liabilities X 100),Rendement des investissements directs entrants (débits divisés par le passif moyen sur deux ans X 100)
+CountryArea,Country Area (thousands of ha),Superficie (milliers d'ha)
+LandArea,Land area (thousands of ha),Superficie terrestre (milliers d'ha)
+ArtSurf,Artificial surfaces (including urban and associated areas) (thousands of ha),Surfaces artificielles (y compris les zones urbaines et associées) (milliers d'ha)
+AgricLand,Agricultural land (thousands of ha),Terres agricoles (milliers d'ha)
+CropLand,Cropland (thousands of ha),Terres cultivées (milliers d'ha)
+ArabLand,Arable land (thousands of ha),Terres arables (milliers d'ha)
+ForestLand,Forest land (thousands of ha),Terres forestières (milliers d'ha)
+InlndWtrs,Inland waters (thousands of ha),Eaux intérieures (milliers d'ha)
 CarbStock,"Carbon stock in living biomass (forests, millions of tonnes)","Stock de carbone dans la biomasse vivante (forêts, millions de tonnes)"
-TotAgGHG,Total GHG emissions from agriculture (CO2-equivalent gigagrams),Émissions totales de GES de l'agriculture (gigagrammes d'équivalent CO2)
-gexp,Gross exports (dc+fc),Exportations brutes (dc + fc)
-gvc,"GVC exports (value of production crossing more than one border, gvcb+gvcf)","Exportations CVM (valeur de la production traversant plus d'une frontière, gvcb + gvcf)"
-gvcb,GVC backward participation (foreign and domestic value in imported inputs that are re-exported),Participation en amont aux CVM (valeur étrangère et nationale des intrants importés réexportés)
-gvcf,GVC forward participation (value of domestic productions re-exported by the bilateral partners),Participation en aval aux CVM (valeur des productions nationales réexportées par les partenaires bilatéraux)
-gvcb01,GVC backward participation - Agriculture,Participation en amont aux CVM - Agriculture
-gvcb02,GVC backward participation - Fishing,Participation en amont aux CVM - Pêche
-gvcb03,GVC backward participation - Mining and Quarrying,Participation en amont aux CVM - Mines et carrières
-gvcb04,GVC backward participation - Food & Beverages,Participation en amont aux CVM - Alimentation et boissons
-gvcb05,GVC backward participation - Textiles and Wearing Apparel,Participation en amont aux CVM - Textiles et vêtements
-gvcb06,GVC backward participation - Wood and Paper,Participation en amont aux CVM - Bois et papier
-gvcb07,"GVC backward participation - Petroleum, Chemical and Non-Metallic Mineral Products","Participation en amont aux CVM - Produits pétroliers, chimiques et minéraux non métalliques"
-gvcb08,GVC backward participation - Metal Products,Participation en amont aux CVM - Produits métalliques
-gvcb09,GVC backward participation - Electrical and Machinery,Participation en amont aux CVM - Électricité et machinerie
-gvcb10,GVC backward participation - Transport Equipment,Participation en amont aux CVM - Équipement de transport
-gvcb11,GVC backward participation - Other Manufacturing,Participation en amont aux CVM - Autres industries manufacturières
-gvcb12,GVC backward participation - Recycling,Participation en amont aux CVM - Recyclage
-gvcb13,"GVC backward participation - Electricity, Gas and Water","Participation en amont aux CVM - Électricité, gaz et eau"
-gvcb14,GVC backward participation - Construction,Participation en amont aux CVM - Construction
-gvcb15,GVC backward participation - Maintenance and Repair,Participation en amont aux CVM - Maintenance et réparation
-gvcb16,GVC backward participation - Wholesale Trade,Participation en amont aux CVM - Commerce de gros
-gvcb17,GVC backward participation - Retail Trade,Participation en amont aux CVM - Commerce de détail
-gvcb18,GVC backward participation - Hotels and Restaurants,Participation en amont aux CVM - Hôtels et Restaurants
-gvcb19,GVC backward participation - Transport,Participation en amont aux CVM - Transport
-gvcb20,GVC backward participation - Post and Telecommunications,Participation en amont aux CVM - Postes et télécommunications
-gvcb21,GVC backward participation - Financial Intermediation and Business Activities,Participation en amont aux CVM - Intermédiation financière et activités commerciales
-gvcb22,GVC backward participation - Public Administration,Participation en amont aux CVM - Administration publique
-gvcb23,"GVC backward participation - Education, Health and Other Services","Participation en amont aux CVM - Éducation, santé et autres services"
-gvcb24,GVC backward participation - Private Households,Participation en amont aux CVM - Ménages privés
-gvcb25,GVC backward participation - Others,Participation en amont aux CVM - Autres
-gvcb26,GVC backward participation - Re-export & Re-import,Participation en amont aux CVM - réexportation et réimportation
-gvcf01,GVC forward participation - Agriculture,Participation en aval aux CVM - Agriculture
-gvcf02,GVC forward participation - Fishing,Participation en aval aux CVM - Pêche
-gvcf03,GVC forward participation - Mining and Quarrying,Participation en aval aux CVM - Mines et Carrières
-gvcf04,GVC forward participation - Food & Beverages,Participation en aval aux CVM - Alimentation et boissons
-gvcf05,GVC forward participation - Textiles and Wearing Apparel,Participation en aval aux CVM - Textiles et vêtements
-gvcf06,GVC forward participation - Wood and Paper,Participation en aval aux CVM - Bois et papier
-gvcf07,"GVC forward participation - Petroleum, Chemical and Non-Metallic Mineral Products","Participation en aval aux CVM - Produits pétroliers, chimiques et minéraux non métalliques"
-gvcf08,GVC forward participation - Metal Products,Participation en aval aux CVM - Produits métalliques
-gvcf09,GVC forward participation - Electrical and Machinery,Participation en aval aux CVM - Électricité et machinerie
-gvcf10,GVC forward participation - Transport Equipment,Participation en aval aux CVM - Équipement de transport
-gvcf11,GVC forward participation - Other Manufacturing,Participation en aval aux CVM - Autres industries manufacturières
-gvcf12,GVC forward participation - Recycling,Participation en aval aux CVM - Recyclage
-gvcf13,"GVC forward participation - Electricity, Gas and Water","Participation en aval aux CVM - Électricité, gaz et eau"
-gvcf14,GVC forward participation - Construction,Participation en aval aux CVM - Construction
-gvcf15,GVC forward participation - Maintenance and Repair,Participation en aval aux CVM - Maintenance et réparation
-gvcf16,GVC forward participation - Wholesale Trade,Participation en aval aux CVM - Commerce de gros
-gvcf17,GVC forward participation - Retail Trade,Participation en aval aux CVM - Commerce de détail
-gvcf18,GVC forward participation - Hotels and Restaurants,Participation en aval aux CVM - Hôtels et Restaurants
-gvcf19,GVC forward participation - Transport,Participation en aval aux CVM - Transport
-gvcf20,GVC forward participation - Post and Telecommunications,Participation en aval aux CVM - Postes et télécommunications
-gvcf21,GVC forward participation - Financial Intermediation and Business Activities,Participation en aval aux CVM - Intermédiation financière et activités commerciales
-gvcf22,GVC forward participation - Public Administration,Participation en aval aux CVM - Administration publique
-gvcf23,"GVC forward participation - Education, Health and Other Services","Participation en aval aux CVM - Éducation, santé et autres services"
-gvcf24,GVC forward participation - Private Households,Participation en aval aux CVM - Ménages privés
-gvcf25,GVC forward participation - Others,Participation en aval aux CVM - Autres
-gvcf26,GVC forward participation - Re-export & Re-import,Participation en aval aux CVM - réexportation et réimportation
-VASameCtry,Total value of national exports originating domestically (millions of USD),Valeur totale des exportations nationales originaires du pays (millions d'USD)
-BkwdVA,Total foreign added value embedded in national exports (millions of USD),Valeur ajoutée étrangère totale intégrée dans les exportations nationales (millions d'USD)
-BkwdVABordCtry,Total added value from neighbouring countries embedded in national exports (millions of USD),Valeur ajoutée totale des pays voisins intégrée dans les exportations nationales (millions d'USD)
-BkwdVASameAUCReg,Total added value from countries within the same AUC region embedded in national exports (millions of USD),Valeur ajoutée totale des pays de la même région de la CUA intégrée dans les exportations nationales (millions d'USD)
-BkwdVASameCont,Total added value from countries within the same continent embedded in national exports (millions of USD),Valeur ajoutée totale des pays d'un même continent intégrée dans les exportations nationales (millions d'USD)
-BkwdVAExtraCont,Total added value from outside the continent embedded in national exports (millions of USD),Valeur ajoutée totale de l'extérieur du continent intégrée dans les exportations nationales (millions d'USD)
-FrwdVA,Total value of national exports embedded in foreign exports (millions of USD),Valeur totale des exportations nationales incorporées dans les exportations étrangères (millions d'USD)
-FrwdVABordCtry,Total value of national exports embedded in exports of neighbouring countries (millions of USD),Valeur totale des exportations nationales intégrées dans les exportations des pays voisins (millions d'USD)
-FrwdVASameAUCReg,Total value of national exports embedded in exports of countries within the same AUC region (millions of USD),Valeur totale des exportations nationales intégrées dans les exportations des pays de la même région de la CUA (millions d'USD)
-FrwdVASameCont,Total value of national exports embedded in exports of countries within the same continent (millions of USD),Valeur totale des exportations nationales intégrées dans les exportations des pays d'un même continent (millions d'USD)
-FrwdVAExtraCont,Total value of national exports embedded in exports of countries in other continents (millions of USD),Valeur totale des exportations nationales incorporées dans les exportations des pays d'autres continents (millions de USD)
+CrbStckChg,Carbon stock change in forests - kilotonnes of CO2 equivalent net emissions/removals,Variation des stocks de carbone dans les forêts - émissions/absoptions nettes en kilotonnes d'équivalent CO2
+FrmGteEm,Farm-gate emissions (kilotonnes of CO2 equivalent emissions),Émissions à la ferme (émissions en kilotonnes d'équivalent CO2)
+LndUseChgEm,Land Use change (kilotonnes of CO2 equivalent emissions),Changement d'affectation des terres (kilotonnes d'émissions d'équivalent CO2)
+FrstLandEm,Forestland (kilotonnes of CO2 equivalent emissions),Terres forestières (kilotonnes d'émissions d'équivalent CO2)
+FrstFireEm,Forest fires (kilotonnes of CO2 equivalent emissions),Incendies de forêt (émissions en kilotonnes d'équivalent CO2)
+SynthFertEm,Synthetic Fertilizers (kilotonnes of CO2 equivalent emissions),Engrais synthétiques (émissions en kilotonnes d'équivalent CO2)
+OnFrmEngyEm,On-farm energy use (kilotonnes of CO2 equivalent emissions),Consommation d'énergie à la ferme (kilotonnes d'émissions d'équivalent CO2)
+AgricProd,Agricultural Production (millions of USD),Production agricole (millions de dollars US)
+CerealProd,Cereal Production (millions of USD),Production céréalière (millions de dollars US)
+AgFoodProd,Food Production (millions of USD),Production alimentaire (millions de dollars US)
+AgCropProd,Crops Production (millions of USD),Production des cultures (millions de dollars US)
+AgLvStProd,Livestock Production (millions of USD),Production de bétail (millions de dollars US)
+AgNnFdProd,Non food agricultural production (millions of USD),Production agricole non alimentaire (millions de dollars US)
+FoodSupp,Total food supply (kcal/capita/day),Approvisionnement alimentaire total (kcal / habitant / jour)
+WoodProd,Production of wood products (thousands of cubic meters),Production de produits du bois (milliers de mètres cubes)
+ChrPlpPprPrd,"Production of wood charcoal, pulp, paper, fibre and pellets (thousands of tonnes)","Production de charbon de bois, pâte à papier, papier, fibres et granulés (milliers de tonnes)"
+FertProdNit,Nutrient nitrogen production (thousands of tonnes),Production d'azote nutritif (milliers de tonnes)
+FertProdPho,Nutrient phosphate production (thousands of tonnes),Production de phosphate nutritif (milliers de tonnes)
+FertProdPot,Nutrient potash production (thousands of tonnes),Production de potasse nutritive (milliers de tonnes)
+FertUseNit,Agricultural use of nutrient nitrogen (thousands of tonnes),Utilisation agricole de l'azote nutritif (milliers de tonnes)
+FertUsePho,Agricultural use of phosphate (thousands of tonnes),Utilisation agricole du phosphate (milliers de tonnes)
+FertUsePot,Agricultural use of potash (thousands of tonnes),Utilisation agricole de la potasse (milliers de tonnes)
+HlthExpPGD,Current health expenditure (% of GDP),Dépenses courantes de santé (% du PIB)
+HlthExpPGDExt,External health expenditure (% of GDP),Dépenses externes de santé (% du PIB)
+HlthExpPGDPub,Domestic general government health expenditure (% of GDP),Dépenses de santé des administrations publiques nationales (% du PIB)
+HlthExpPGDPrv,Domestic private health expenditure (% of GDP),Dépenses nationales de santé privées par habitant (% du PIB)
+AdjSvCFCPGD,Adjusted savings: consumption of fixed capital (% of GDP),Épargne ajustée : consommation de capital fixe (% du PIB)
+AdjSvNNSPGD,Adjusted savings: net national savings (% of GDP),Épargne ajustée : épargne nationale nette (% du PIB)
+AdjSvEDUPGD,Adjusted savings: education expenditure (% of GDP),Épargne ajustée : dépenses d'éducation (% du PIB)
+AdjSvENDPGD,Adjusted savings: energy depletion (% of GDP),Épargne ajustée : épuisement énergétique (% du PIB)
+AdjSvMIDPGD,Adjusted savings: mineral depletion (% of GDP),Épargne ajustée : épuisement des ressources minérales (% du PIB)
+AdjSvNFDPGD,Adjusted savings: net forest depletion (% of GDP),Épargne ajustée : épuisement net des forêts (% du PIB)
+AdjSvCO2PGD,Adjusted savings: carbon dioxide damage (% of GDP),Épargne ajustée : dommages causés par le dioxyde de carbone (% du PIB)
+AdjSvPOLPGD,Adjusted savings: particulate emission damage (% of GDP),Épargne ajustée : dommages causés par les émissions de particules (% du PIB)
+AdjSvANSPGD,"Adjusted net savings, including particulate emission damage (% of GDP)","Épargne nette ajustée, y compris les dommages causés par les émissions de particules (% du PIB)"
+GHGFCOMB,CO2 equivalent emissions (kt) of GHG from fuel combustion,Émissions d'équivalent CO2 (kt) de GES provenant de la combustion de carburant
+OTHEN,CO2 equivalent emissions (kt) from other energy industry own use,Émissions d'équivalent CO2 (kt) provenant de l'autoconsommation d'autres industries énergétiques
+TOTIND,CO2 equivalent emissions (kt) from manufacturing industries and construction,Émissions d'équivalent CO2 (kt) des industries manufacturières et de la construction
+TOTTRANS,CO2 equivalent emissions (kt) from transport,Émissions d'équivalent CO2 (kt) du Transport
+ROAD,CO2 equivalent emissions (kt) from road,Émissions d'équivalent CO2 (kt) des routes
+RESIDENT,CO2 equivalent emissions (kt) from residential,Émissions d'équivalent CO2 (kt) du secteur résidentiel
+COMMPUB,CO2 equivalent emissions (kt) from commercial and public services,Émissions d'équivalent CO2 (kt) des services commerciaux et publics
+AGRICULT,CO2 equivalent emissions (kt) from agriculture/forestry,Émissions d'équivalent CO2 (kt) de l'agriculture/foresterie
+FISHING,CO2 equivalent emissions (kt) from fishing,Émissions d'équivalent CO2 (kt) de la pêche
+ONONSPEC,CO2 equivalent emissions (kt) from final consumption not elsewhere specified,Émissions d'équivalent CO2 (kt) de la consommation finale non spécifiée ailleurs
+ELECHEAT,CO2 equivalent emissions (kt) from electricity and heat production,Émissions d'équivalent CO2 (kt) de la production d'électricité et de chaleur
+PUBFINSOLAR,Public flows into solar power in millions of 2020 USD,Flux publics vers l'énergie solaire en millions de dollars US de 2020
+PUBFINWIND,Public flows into wind power in millions of 2020 USD,Flux publics vers l'énergie éolienne en millions de dollars US de 2020
+PUBFINGEO,Public flows into geothermal energy in millions of 2020 USD,Flux publics vers l'énergie géothermique en millions de dollars US de 2020
+PUBFINHYDRO,Public flows into renewable hydropower in millions of 2020 USD,Flux publics vers l'hydroélectricité renouvelable en millions de dollars US de 2020
+PUBFINBIOF,Public flows into biofuels in millions of 2020 USD,Flux publics vers les biocarburants en millions de dollars US de 2020
+PUBFINOTHREN,Public flows into renewable energy n.e.s. in millions of 2020 USD,Flux publics vers les énergies renouvelables n.d.a. en millions de dollars US de 2020
+PUBFINNUCL,Public flows into nuclear power in millions of 2020 USD,Flux publics vers le nucléaire en millions de dollars US de 2020
+PUBFINPUMP,Public flows into pumped storage in millions of 2020 USD,Flux publics vers le stockage pompage-turbinage en millions de dollars US de 2020
+PUBFINFOSS,Public flows into fossil fuels in millions of 2020 USD,Flux publics vers les combustibles fossiles en millions de dollars US de 2020
+ELECCAPSOLAR,Electric power capacity solar power in megawatts (MW),Capacité d'énergie électrique solaire en mégawatts (MW)
+ELECCAPWIND,Electric power capacity wind power in megawatts (MW),Capacité d'énergie électrique éolienne en mégawatts (MW)
+ELECCAPGEO,Electric power capacity geothermal energy in megawatts (MW),Capacité d'énergie électrique géothermique en mégawatts (MW)
+ELECCAPHYDRO,Electric power capacity renewable hydropower in megawatts (MW),Capacité d'énergie électrique hydroélectrique renouvelable en mégawatts (MW)
+ELECCAPBIOF,Electric power capacity from biofuels in megawatts (MW),Capacité d'énergie électrique à partir de biocarburants en mégawatts (MW)
+ELECCAPOTHREN,Electric power capacityrenewable energy n.e.s. in megawatts (MW),Capacité d'énergie électrique renouvelables n.d.a. en mégawatts (MW)
+ELECCAPNUCL,Electric power capacity nuclear power in megawatts (MW),Capacité d'énergie électrique nucléaire en mégawatts (MW)
+ELECCAPPUMP,Electric power capacity pumped storage in megawatts (MW),Capacité d'énergie électrique du pompage-turbinage en mégawatts (MW)
+ELECCAPFOSS,Electric power capacity from fossil fuels in megawatts (MW),Capacité d'énergie électrique à partir de combustibles fossiles en mégawatts (MW)
+ELECGENSOLAR,Electric power generation solar power in GigaWatt hours (GWh),Production d'énergie électrique solaire en gigawattheures (GWh)
+ELECGENWIND,Electric power generation wind power in GigaWatt hours (GWh),Production d'énergie électrique éolienne en GigaWattheures (GWh)
+ELECGENGEO,Electric power generation geothermal energy in GigaWatt hours (GWh),Production d'énergie électrique géothermique en GigaWattheures (GWh)
+ELECGENHYDRO,Electric power generation renewable hydropower in GigaWatt hours (GWh),Production d'énergie hydroélectrique renouvelable en gigawattheures (GWh)
+ELECGENBIOF,Electric power generation from biofuels in GigaWatt hours (GWh),Production d'énergie électrique à partir de biocarburants en gigawattheures (GWh)
+ELECGENOTHREN,Electric power generationrenewable energy n.e.s. in GigaWatt hours (GWh),Production d'énergie électrique renouvelables n.d.a. en gigawattheures (GWh)
+ELECGENNUCL,Electric power generation nuclear power in GigaWatt hours (GWh),Production d'énergie électrique nucléaire en GigaWattheures (GWh)
+ELECGENPUMP,Electric power generation pumped storage in GigaWatt hours (GWh),Production d'énergie électrique par pompage-turbinage en gigawattheures (GWh)
+ELECGENFOSS,Electric power generation from fossil fuels in GigaWatt hours (GWh),Production d'énergie électrique à partir de combustibles fossiles en gigawattheures (GWh)
+gexp,"Gross exports (dc+fc, millions of USD)","Exportations brutes (dc+fc, millions de dollars US)"
+gvc,"GVC exports (value of production crossing more than one border, gvcb+gvcf, millions of USD)","Exportations CVM (valeur de la production traversant plus d'une frontière, gvcb + gvcf, millions de dollars US)"
+gvcb,"GVC backward participation (foreign and domestic value in imported inputs that are re-exported, millions of USD)","Participation en amont aux CVM (valeur étrangère et nationale des intrants importés réexportés, millions de dollars US)"
+gvcf,"GVC forward participation (value of domestic productions re-exported by the bilateral partners, millions of USD)","Participation en aval aux CVM (valeur des productions nationales réexportées par les partenaires bilatéraux, millions de dollars US)"
+gvcb01,GVC backward participation (millions of USD) - Agriculture,Participation en amont aux CVM (millions de dollars US) - Agriculture
+gvcb02,GVC backward participation (millions of USD) - Fishing,Participation en amont aux CVM (millions de dollars US) - Pêche
+gvcb03,GVC backward participation (millions of USD) - Mining and Quarrying,Participation en amont aux CVM (millions de dollars US) - Mines et carrières
+gvcb04,GVC backward participation (millions of USD) - Food & Beverages,Participation en amont aux CVM (millions de dollars US) - Alimentation et boissons
+gvcb05,GVC backward participation (millions of USD) - Textiles and Wearing Apparel,Participation en amont aux CVM (millions de dollars US) - Textiles et vêtements
+gvcb06,GVC backward participation (millions of USD) - Wood and Paper,Participation en amont aux CVM (millions de dollars US) - Bois et papier
+gvcb07,"GVC backward participation (millions of USD) - Petroleum, Chemical and Non-Metallic Mineral Products","Participation en amont aux CVM (millions de dollars US) - Produits pétroliers, chimiques et minéraux non métalliques"
+gvcb08,GVC backward participation (millions of USD) - Metal Products,Participation en amont aux CVM (millions de dollars US) - Produits métalliques
+gvcb09,GVC backward participation (millions of USD) - Electrical and Machinery,Participation en amont aux CVM (millions de dollars US) - Électricité et machinerie
+gvcb10,GVC backward participation (millions of USD) - Transport Equipment,Participation en amont aux CVM (millions de dollars US) - Équipement de transport
+gvcb11,GVC backward participation (millions of USD) - Other Manufacturing,Participation en amont aux CVM (millions de dollars US) - Autres industries manufacturières
+gvcb12,GVC backward participation (millions of USD) - Recycling,Participation en amont aux CVM (millions de dollars US) - Recyclage
+gvcb13,"GVC backward participation (millions of USD) - Electricity, Gas and Water","Participation en amont aux CVM (millions de dollars US) - Électricité, gaz et eau"
+gvcb14,GVC backward participation (millions of USD) - Construction,Participation en amont aux CVM (millions de dollars US) - Construction
+gvcb15,GVC backward participation (millions of USD) - Maintenance and Repair,Participation en amont aux CVM (millions de dollars US) - Maintenance et réparation
+gvcb16,GVC backward participation (millions of USD) - Wholesale Trade,Participation en amont aux CVM (millions de dollars US) - Commerce de gros
+gvcb17,GVC backward participation (millions of USD) - Retail Trade,Participation en amont aux CVM (millions de dollars US) - Commerce de détail
+gvcb18,GVC backward participation (millions of USD) - Hotels and Restaurants,Participation en amont aux CVM (millions de dollars US) - Hôtels et Restaurants
+gvcb19,GVC backward participation (millions of USD) - Transport,Participation en amont aux CVM (millions de dollars US) - Transport
+gvcb20,GVC backward participation (millions of USD) - Post and Telecommunications,Participation en amont aux CVM (millions de dollars US) - Postes et télécommunications
+gvcb21,GVC backward participation (millions of USD) - Financial Intermediation and Business Activities,Participation en amont aux CVM (millions de dollars US) - Intermédiation financière et activités commerciales
+gvcb22,GVC backward participation (millions of USD) - Public Administration,Participation en amont aux CVM (millions de dollars US) - Administration publique
+gvcb23,"GVC backward participation (millions of USD) - Education, Health and Other Services","Participation en amont aux CVM (millions de dollars US) - Éducation, santé et autres services"
+gvcb24,GVC backward participation (millions of USD) - Private Households,Participation en amont aux CVM (millions de dollars US) - Ménages privés
+gvcb25,GVC backward participation (millions of USD) - Others,Participation en amont aux CVM (millions de dollars US) - Autres
+gvcb26,GVC backward participation (millions of USD) - Re-export & Re-import,Participation en amont aux CVM (millions de dollars US) - réexportation et réimportation
+gvcf01,GVC forward participation (millions of USD) - Agriculture,Participation en aval aux CVM (millions de dollars US) - Agriculture
+gvcf02,GVC forward participation (millions of USD) - Fishing,Participation en aval aux CVM (millions de dollars US) - Pêche
+gvcf03,GVC forward participation (millions of USD) - Mining and Quarrying,Participation en aval aux CVM (millions de dollars US) - Mines et Carrières
+gvcf04,GVC forward participation (millions of USD) - Food & Beverages,Participation en aval aux CVM (millions de dollars US) - Alimentation et boissons
+gvcf05,GVC forward participation (millions of USD) - Textiles and Wearing Apparel,Participation en aval aux CVM (millions de dollars US) - Textiles et vêtements
+gvcf06,GVC forward participation (millions of USD) - Wood and Paper,Participation en aval aux CVM (millions de dollars US) - Bois et papier
+gvcf07,"GVC forward participation (millions of USD) - Petroleum, Chemical and Non-Metallic Mineral Products","Participation en aval aux CVM (millions de dollars US) - Produits pétroliers, chimiques et minéraux non métalliques"
+gvcf08,GVC forward participation (millions of USD) - Metal Products,Participation en aval aux CVM (millions de dollars US) - Produits métalliques
+gvcf09,GVC forward participation (millions of USD) - Electrical and Machinery,Participation en aval aux CVM (millions de dollars US) - Électricité et machinerie
+gvcf10,GVC forward participation (millions of USD) - Transport Equipment,Participation en aval aux CVM (millions de dollars US) - Équipement de transport
+gvcf11,GVC forward participation (millions of USD) - Other Manufacturing,Participation en aval aux CVM (millions de dollars US) - Autres industries manufacturières
+gvcf12,GVC forward participation (millions of USD) - Recycling,Participation en aval aux CVM (millions de dollars US) - Recyclage
+gvcf13,"GVC forward participation (millions of USD) - Electricity, Gas and Water","Participation en aval aux CVM (millions de dollars US) - Électricité, gaz et eau"
+gvcf14,GVC forward participation (millions of USD) - Construction,Participation en aval aux CVM (millions de dollars US) - Construction
+gvcf15,GVC forward participation (millions of USD) - Maintenance and Repair,Participation en aval aux CVM (millions de dollars US) - Maintenance et réparation
+gvcf16,GVC forward participation (millions of USD) - Wholesale Trade,Participation en aval aux CVM (millions de dollars US) - Commerce de gros
+gvcf17,GVC forward participation (millions of USD) - Retail Trade,Participation en aval aux CVM (millions de dollars US) - Commerce de détail
+gvcf18,GVC forward participation (millions of USD) - Hotels and Restaurants,Participation en aval aux CVM (millions de dollars US) - Hôtels et Restaurants
+gvcf19,GVC forward participation (millions of USD) - Transport,Participation en aval aux CVM (millions de dollars US) - Transport
+gvcf20,GVC forward participation (millions of USD) - Post and Telecommunications,Participation en aval aux CVM (millions de dollars US) - Postes et télécommunications
+gvcf21,GVC forward participation (millions of USD) - Financial Intermediation and Business Activities,Participation en aval aux CVM (millions de dollars US) - Intermédiation financière et activités commerciales
+gvcf22,GVC forward participation (millions of USD) - Public Administration,Participation en aval aux CVM (millions de dollars US) - Administration publique
+gvcf23,"GVC forward participation (millions of USD) - Education, Health and Other Services","Participation en aval aux CVM (millions de dollars US) - Éducation, santé et autres services"
+gvcf24,GVC forward participation (millions of USD) - Private Households,Participation en aval aux CVM (millions de dollars US) - Ménages privés
+gvcf25,GVC forward participation (millions of USD) - Others,Participation en aval aux CVM (millions de dollars US) - Autres
+gvcf26,GVC forward participation (millions of USD) - Re-export & Re-import,Participation en aval aux CVM (millions de dollars US) - réexportation et réimportation
+VASameCtry,Total value of national exports originating domestically (millions of USD),Valeur totale des exportations nationales originaires du pays (millions de dollars US)
+BkwdVA,Total foreign added value embedded in national exports (millions of USD),Valeur ajoutée étrangère totale intégrée dans les exportations nationales (millions de dollars US)
+BkwdVABordCtry,Total added value from neighbouring countries embedded in national exports (millions of USD),Valeur ajoutée totale des pays voisins intégrée dans les exportations nationales (millions de dollars US)
+BkwdVASameAUCReg,Total added value from countries within the same AUC region embedded in national exports (millions of USD),Valeur ajoutée totale des pays de la même région de la CUA intégrée dans les exportations nationales (millions de dollars US)
+BkwdVASameCont,Total added value from countries within the same continent embedded in national exports (millions of USD),Valeur ajoutée totale des pays d'un même continent intégrée dans les exportations nationales (millions de dollars US)
+BkwdVAExtraCont,Total added value from outside the continent embedded in national exports (millions of USD),Valeur ajoutée totale de l'extérieur du continent intégrée dans les exportations nationales (millions de dollars US)
+FrwdVA,Total value of national exports embedded in foreign exports (millions of USD),Valeur totale des exportations nationales incorporées dans les exportations étrangères (millions de dollars US)
+FrwdVABordCtry,Total value of national exports embedded in exports of neighbouring countries (millions of USD),Valeur totale des exportations nationales intégrées dans les exportations des pays voisins (millions de dollars US)
+FrwdVASameAUCReg,Total value of national exports embedded in exports of countries within the same AUC region (millions of USD),Valeur totale des exportations nationales intégrées dans les exportations des pays de la même région de la CUA (millions de dollars US)
+FrwdVASameCont,Total value of national exports embedded in exports of countries within the same continent (millions of USD),Valeur totale des exportations nationales intégrées dans les exportations des pays d'un même continent (millions de dollars US)
+FrwdVAExtraCont,Total value of national exports embedded in exports of countries in other continents (millions of USD),Valeur totale des exportations nationales incorporées dans les exportations des pays d'autres continents (millions de dollars US)
 VASameCtryPGD,Total value of national exports originating domestically (% of GDP),Valeur totale des exportations nationales d'origine nationale (% du PIB)
 BkwdVAPGD,Total foreign added value embedded in national exports (% of GDP),Valeur ajoutée étrangère totale incorporée dans les exportations nationales (% du PIB)
 BkwdVABordCtryPGD,Total added value from neighbouring countries embedded in national exports (% of GDP),Valeur ajoutée totale des pays voisins intégrée dans les exportations nationales (% du PIB)
@@ -291,4 +382,4 @@ TrdCstABInternal,"Average cost of trade within country group as % of merchandise
 TrdCstABExternal,"Average cost of trade with countries outside the country group as % of merchandise value, primary goods","Coût moyen du commerce avec les pays hors du groupe de pays en % de la valeur des marchandises, produits primaires"
 ISO9001,Number of ISO 9001 quality management systems certificates,Nombre de certificats de systèmes de management de la qualité ISO 9001
 ISO14001,Number of ISO 14001 environmental management systems certificates,Nombre de certificats de systèmes de management environnemental ISO 14001
-ISO50001,Number of ISO 50001 energy management systems certificates,Nombre de certificats ISO 50001 de systèmes de management de l'énergie
+ISO50001,Number of ISO 50001 energy management systems certificates,Nombre de certificats de systèmes de management de l'énergie ISO 50001
