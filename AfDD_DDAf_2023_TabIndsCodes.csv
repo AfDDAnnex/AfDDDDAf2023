@@ -32,10 +32,10 @@ LitRt15T99GPIA,"Adult literacy rate, population 15+ years, adjusted gender parit
 EmpRateFemale,"Employment as a % of population 15+, females","Emploi en % de la population âgée de 15 ans et plus, de sexe féminin"
 EmpRateMale,"Employment as a % of population 15+, males","Emploi en % de la population âgée de 15 ans et plus, de sexe masculin"
 VulnRate,Percentage of workers in vulnerable employment,Pourcentage de travailleurs ayant un emploi vulnérable
-Employees,Percentage of workers aged 15+ classified as employees,Pourcentage de travailleurs âgés de 15 ans et plus classés comme salariés
-Employers,Percentage of workers aged 15+ classified as employers,Pourcentage de travailleurs âgés de 15 ans et plus classés comme employeurs
-OwnAccount,Percentage of workers aged 15+ classified as own-account workers,Pourcentage de travailleurs âgés de 15 ans et plus classés comme travailleurs à leur propre compte
-ContribFamily,Percentage of workers aged 15+ classified as contributing family workers,Pourcentage de travailleurs âgés de 15 ans et plus classés comme travailleurs familiaux contributeurs
+EmployeesRate,Percentage of workers aged 15+ classified as employees,Pourcentage de travailleurs âgés de 15 ans et plus classés comme salariés
+EmployersRate,Percentage of workers aged 15+ classified as employers,Pourcentage de travailleurs âgés de 15 ans et plus classés comme employeurs
+OwnAccountRate,Percentage of workers aged 15+ classified as own-account workers,Pourcentage de travailleurs âgés de 15 ans et plus classés comme travailleurs à leur propre compte
+ContribFamRate,Percentage of workers aged 15+ classified as contributing family workers,Pourcentage de travailleurs âgés de 15 ans et plus classés comme travailleurs familiaux contributeurs
 OilRent,Oil rents (% of GDP),Rente pétroliere (% du PIB)
 MinRent,Mineral rents (% of GDP),Rente tirée des minéraux (% du PIB)
 TotNRRent,Total natural resources rents (% of GDP),Rente tirée des ressources naturelles totales (% du PIB)
@@ -102,12 +102,12 @@ PositiveAffect,Positive affect,Affect positif
 FreedomLife,Freedom to make life choices,Liberté de faire des choix de vie
 Generosity,Generosity,Générosité
 SocialSupp,Social support,Soutien sociale
-CnsExp,Final consumption expenditure as a % of GDP,Dépense de consommation finale
-GFCF,Gross fixed capital formation as a % of GDP,Formation brute de capital fixe
-InvChg,Changes in inventories as a % of GDP,Variations des stocks
-FrgnBal,Foreign balance as a % of GDP,Balance extérieur
-ImpGdsSrv,Imports of goods and services as a % of GDP,Importations de biens et services
-ExpGdsSrv,Exports of goods and services as a % of GDP,Exportations de biens et services
+CnsExpPGD,Final consumption expenditure as a % of GDP,Dépense de consommation finale
+GFCFPGD,Gross fixed capital formation as a % of GDP,Formation brute de capital fixe
+InvChgPGD,Changes in inventories as a % of GDP,Variations des stocks
+FrgnBalPGD,Foreign balance as a % of GDP,Balance extérieur
+ImpGdsSrvPGD,Imports of goods and services as a % of GDP,Importations de biens et services
+ExpGdsSrvPGD,Exports of goods and services as a % of GDP,Exportations de biens et services
 GovRevPerGDP,General government revenue as a % of GDP,Recettes des administrations publiques en % du PIB
 TaxPerGDP,General government taxes as a % of GDP,Impôts des administrations publiques en % du PIB
 GovGrantsPerGDP,"General government revenue, grants as a % of GDP","Recettes des administrations publiques, dons en % du PIB"
@@ -175,7 +175,7 @@ KGOVPGD,General government capital stock as a % of GDP,Stock de capital des admi
 KPPPPGD,Public-private partnership (PPP) capital stock as a % of GDP,Stock de capital des partenariats public-privé (PPP) en % du PIB
 KPRIVPGD,Private capital stock as a % of GDP,Stock de capital privé en % du PIB
 IGOVUSD,General government investment (gross fixed capital formation) (millions of USD),Investissement des administrations publiques (formation brute de capital fixe) (millions de dollars US)
-IPPPUSD,Public-private partnership (PPP) investment (millions of USD),Investissement en partenariat public-privé (PPP) (millions de dollars US)
+IPPPPGD,Public-private partnership (PPP) investment as a % of GDP,Investissements dans les partenariats public-privé (PPP) en % du PIB
 IPRIVUSD,Private investment (gross fixed capital formation) (millions of USD),Investissement privé (formation brute de capital fixe) (millions de dollars US)
 KGOVUSD,General government capital stock (millions of USD),Stock de capital des administrations publiques (millions de dollars US)
 KPPPUSD,Public-private partnership (PPP) capital stock (millions of USD),Stock de capital du partenariat public-privé (PPP) (millions de dollars)
@@ -197,7 +197,6 @@ AgricLand,Agricultural land (thousands of ha),Terres agricoles (milliers d'ha)
 CropLand,Cropland (thousands of ha),Terres cultivées (milliers d'ha)
 ArabLand,Arable land (thousands of ha),Terres arables (milliers d'ha)
 ForestLand,Forest land (thousands of ha),Terres forestières (milliers d'ha)
-InlndWtrs,Inland waters (thousands of ha),Eaux intérieures (milliers d'ha)
 CarbStock,"Carbon stock in living biomass (forests, millions of tonnes)","Stock de carbone dans la biomasse vivante (forêts, millions de tonnes)"
 CrbStckChg,Carbon stock change in forests - kilotonnes of CO2 equivalent net emissions/removals,Variations des stocks de carbone dans les forêts - émissions/absoptions nettes en kilotonnes d'équivalent CO2
 FrmGteEm,Farm gate emissions (kilotonnes of CO2 equivalent emissions),Émissions à la ferme (émissions en kilotonnes d'équivalent CO2)
@@ -207,7 +206,6 @@ FrstFireEm,Forest fires (kilotonnes of CO2 equivalent emissions),Feux et incendi
 SynthFertEm,Synthetic Fertilizers (kilotonnes of CO2 equivalent emissions),Engrais synthétiques (émissions en kilotonnes d'équivalent CO2)
 OnFrmEngyEm,On-farm energy use (kilotonnes of CO2 equivalent emissions),Consommation d'énergie à la ferme (kilotonnes d'émissions d'équivalent CO2)
 AgricProd,Agricultural Production (millions of USD),Production agricole (millions de dollars US)
-CerealProd,Cereal Production (millions of USD),Production céréalière (millions de dollars US)
 AgFoodProd,Food Production (millions of USD),Production alimentaire (millions de dollars US)
 AgCropProd,Crops Production (millions of USD),Production des cultures (millions de dollars US)
 AgLvStProd,Livestock Production (millions of USD),Production de bétail (millions de dollars US)
@@ -238,19 +236,19 @@ GHGFCOMB,CO2 equivalent emissions (kt) of GHG from fuel combustion,Émissions d'é
 OTHEN,CO2 equivalent emissions (kt) from other energy industry own use,Émissions d'équivalent CO2 (kt) provenant de l'autoconsommation d'autres industries énergétiques
 TOTIND,CO2 equivalent emissions (kt) from manufacturing industries and construction,Émissions d'équivalent CO2 (kt) des industries manufacturières et de la construction
 TOTTRANS,CO2 equivalent emissions (kt) from transport,Émissions d'équivalent CO2 (kt) du transport
+ROAD,CO2 equivalent emissions (kt) from roads (included within transport),Émissions d'équivalent CO2 (kt) des routes (incluses dans les transports)
 RESIDENT,CO2 equivalent emissions (kt) from residential,Émissions d'équivalent CO2 (kt) du secteur résidentiel
 COMMPUB,CO2 equivalent emissions (kt) from commercial and public services,Émissions d'équivalent CO2 (kt) des services commerciaux et publics
 AGRICULT,CO2 equivalent emissions (kt) from agriculture/forestry,Émissions d'équivalent CO2 (kt) de l'agriculture/foresterie
 FISHING,CO2 equivalent emissions (kt) from fishing,Émissions d'équivalent CO2 (kt) de la pêche
 ONONSPEC,CO2 equivalent emissions (kt) from final consumption not elsewhere specified,Émissions d'équivalent CO2 (kt) de la consommation finale non spécifiée ailleurs
-ELECHEAT,CO2 equivalent emissions (kt) from electricity and heat production,Émissions d'équivalent CO2 (kt) de la production d'électricité et de chaleur
-ROAD,CO2 equivalent emissions (kt) from roads (included within transport),Émissions d'équivalent CO2 (kt) des routes (incluses dans les transports)
 ElecAccPop,Population with access to electricity (thousands),Population ayant accès à l'électricité (milliers)
 ElecAccUrbPop,Urban population with access to electricity (thousands),Population urbaine ayant accès à l'électricité (milliers)
 ElecAccRurPop,Rural population with access to electricity (thousands),Population rurale ayant accès à l'électricité (milliers)
 ElecAccPct,Percentage of population with access to electricity,Pourcentage de la population ayant accès à l'électricité
 ElecAccUrbPct,Percentage of urban population with access to electricity,Pourcentage de la population urbaine ayant accès à l'électricité
 ElecAccRurPct,Percentage of rural population with access to electricity,Pourcentage de la population rurale ayant accès à l'électricité
+ELECHEAT,CO2 equivalent emissions (kt) from electricity and heat production,Émissions d'équivalent CO2 (kt) de la production d'électricité et de chaleur
 PUBFINSOLAR,Public flows into solar power in millions of 2020 USD,Flux publics vers l'énergie solaire en millions de dollars US de 2020
 PUBFINWIND,Public flows into wind power in millions of 2020 USD,Flux publics vers l'énergie éolienne en millions de dollars US de 2020
 PUBFINGEO,Public flows into geothermal energy in millions of 2020 USD,Flux publics vers l'énergie géothermique en millions de dollars US de 2020
@@ -311,9 +309,26 @@ TrdCstABCont,"Average cost of trade within continent as % of merchandise value, 
 TrdCstABWLD,"Average cost of trade with all countries as % of merchandise value, primary goods","Coût moyen du commerce avec tous les pays en % de la valeur des marchandises, produits primaires"
 TrdCstABInternal,"Average cost of trade within country group as % of merchandise value, primary goods","Coût moyen du commerce au sein du groupe de pays en % de la valeur des marchandises, produits primaires"
 TrdCstABExternal,"Average cost of trade with countries outside the country group as % of merchandise value, primary goods","Coût moyen du commerce avec les pays hors du groupe de pays en % de la valeur des marchandises, produits primaires"
-ISO9001,Number of ISO 9001 quality management systems certificates,Nombre de certificats de systèmes de management de la qualité ISO 9001
-ISO14001,Number of ISO 14001 environmental management systems certificates,Nombre de certificats de systèmes de management environnemental ISO 14001
-ISO50001,Number of ISO 50001 energy management systems certificates,Nombre de certificats de systèmes de management de l'énergie ISO 50001
+NatCapLD,"National wealth, agricultural lands (billions of constant 2018 international dollars)","Richesse nationale, terres agricoles (milliards de dollars internationaux constants de 2018)"
+NatCapCO,"National wealth, coal (billions of constant 2018 international dollars)","Richesse nationale, charbon (milliards de dollars internationaux constants de 2018)"
+NatCapCL,"National wealth, cropland (billions of constant 2018 international dollars)","Richesse nationale, terres cultivées (en milliards de dollars internationaux constants de 2018)"
+NatCapFS,"National wealth, fisheries (billions of constant 2018 international dollars)","Richesse nationale, pêche (milliards de dollars internationaux constants de 2018)"
+NatCapFE,"National wealth, forests - ecosystem services (billions of constant 2018 international dollars)","Richesse nationale, forêts - services écosystémiques (milliards de dollars internationaux constants de 2018)"
+NatCapFT,"National wealth, forests - timber (billions of constant 2018 international dollars)","Richesse nationale, forêts - bois (milliards de dollars internationaux constants de 2018)"
+NatCapEN,"National wealth, fossil fuel energy (billions of constant 2018 international dollars)","Richesse nationale, énergie fossile (milliards de dollars internationaux constants de 2018)"
+NatCapHC,"National wealth, human capital (billions of constant 2018 international dollars)","Richesse nationale, capital humain (milliards de dollars internationaux constants de 2018)"
+NatCapMA,"National wealth, mangroves (billions of constant 2018 international dollars)","Richesse nationale, mangroves (milliards de dollars internationaux constants de 2018)"
+NatCapMN,"National wealth, metals and minerals (billions of constant 2018 international dollars)","Richesse nationale, métaux et minéraux (en milliards de dollars internationaux constants de 2018)"
+NatCapNK,"National wealth, natural capital (billions of constant 2018 international dollars)","Richesse nationale, capital naturel (milliards de dollars internationaux constants de 2018)"
+NatCapSS,"National wealth, natural capital - nonrenewable (billions of constant 2018 international dollars)","Richesse nationale, capital naturel - non renouvelable (milliards de dollars internationaux constants de 2018)"
+NatCapRN,"National wealth, natural capital - renewable (billions of constant 2018 international dollars)","Richesse nationale, capital naturel - renouvelable (milliards de dollars internationaux constants de 2018)"
+NatCapGS,"National wealth, natural gas (billions of constant 2018 international dollars)","Richesse nationale, gaz naturel (milliards de dollars internationaux constants de 2018)"
+NatCapFA,"National wealth, net foreign assets (billions of constant 2018 international dollars)","Richesse nationale, avoirs extérieurs nets (en milliards de dollars internationaux constants de 2018)"
+NatCapOL,"National wealth, oil (billions of constant 2018 international dollars)","Richesse nationale, pétrole (milliards de dollars internationaux constants de 2018)"
+NatCapPS,"National wealth, pastureland (billions of constant 2018 international dollars)","Richesse nationale, pâturages (milliards de dollars internationaux constants de 2018)"
+NatCapPK,"National wealth, produced capital (billions of constant 2018 international dollars)","Richesse nationale, capital produit (en milliards de dollars internationaux constants de 2018)"
+NatCapPA,"National wealth, protected areas (billions of constant 2018 international dollars)","Richesse nationale, aires protégées (milliards de dollars internationaux constants de 2018)"
+NatCapTW,"National wealth, total wealth (billions of constant 2018 international dollars)","Richesse nationale, richesse totale (en milliards de dollars internationaux constants de 2018)"
 ENVPDNMABPAR,"Ambient particulate matter, premature deaths","Particules dans l'air ambiant, décés prématurés"
 ENVPDPMABPAR,"Ambient particulate matter, premature deaths (per million population)","Particules dans l'air ambiant, décés prématurés (par million d'habitants)"
 ENVPDPTABPAR,"Ambient particulate matter, premature deaths (% of total)","Particules dans l'air ambiant, décés prématurés (% du total)"
@@ -321,8 +336,8 @@ ENVWFPCABPAR,"Ambient particulate matter, welfare cost of premature deaths (USD 
 ENVWFPGABPAR,"Ambient particulate matter, welfare cost of premature deaths (% of GDP)","Particules dans l'air ambiant, coûts en bien-être des décés prématurés (% of GDP)"
 ENVWFPTABPAR,"Ambient particulate matter, welfare cost of premature deaths (% of total)","Particules dans l'air ambiant, coûts en bien-être des décés prématurés (% du total)"
 ENVPDNMHHAIR,"HH air pollution (solid fuels), premature deaths","Pollution de l'air des ménages (combustibles solides), décés prématurés"
-ENVPDPMHHAIR,"HH air pollution (solid fuels), premature deaths (% of total)","Pollution de l'air des ménages (combustibles solides), décés prématurés (% du total)"
-ENVPDPTHHAIR,"HH air pollution (solid fuels), premature deaths (per million population)","Pollution de l'air des ménages (combustibles solides), décés prématurés (par million d'habitants)"
+ENVPDPTHHAIR,"HH air pollution (solid fuels), premature deaths (% of total)","Pollution de l'air des ménages (combustibles solides), décés prématurés (% du total)"
+ENVPDPMHHAIR,"HH air pollution (solid fuels), premature deaths (per million population)","Pollution de l'air des ménages (combustibles solides), décés prématurés (par million d'habitants)"
 ENVWFPCHHAIR,"HH air pollution (solid fuels), welfare cost of premature deaths (USD per capita)","Pollution de l'air des ménages (combustibles solides), coûts en bien-être des décés prématurés (dollars US par habitant)"
 ENVWFPGHHAIR,"HH air pollution (solid fuels), welfare cost of premature deaths (% of GDP)","Pollution de l'air des ménages (combustibles solides), coûts en bien-être des décés prématurés (% of GDP)"
 ENVWFPTHHAIR,"HH air pollution (solid fuels), welfare cost of premature deaths (% of total)","Pollution de l'air des ménages (combustibles solides), coûts en bien-être des décés prématurés (% du total)"
@@ -339,3 +354,11 @@ ENVPDPMOCCAR,"Occupational carcinogens, premature deaths (per million population
 ENVPDPMSHSMK,"Second-hand smoke, premature deaths (per million population)","Tabagisme passif, décés prématurés (par million d'habitants)"
 ENVPDPMHGRMT,"Diet high in red meat, premature deaths (per million population)","Alimentation riche en viande rouge, décés prématurés (par million d'habitants)"
 ENVPDPMHGPMT,"Diet high in processed meat, premature deaths (per million population)","Alimentation riche en viande transformée<, décés prématurés (par million d'habitants)"
+InformRateAll,Percentage of informal employment in total employment,Pourcentage de l'emploi informel dans l'emploi total
+InformRateFem,"Percentage of informal employment in total employment, females","Pourcentage de l'emploi informel dans l'emploi total, femmes"
+InformRateMal,"Percentage of informal employment in total employment, males","Pourcentage de l'emploi informel dans l'emploi total, hommes"
+WBInfDGE,Dynamic general equilibrium model-based (DGE) estimates of informal output (% of GDP),Estimations dynamiques basées sur un modèle d'équilibre général (DGE) de la production informelle (% du PIB)
+WBInfMIMIC,Multiple indicators multiple causes model-based (MIMIC) estimates of informal output (% of GDP),Estimations de la production informelle basées sur un modèle à causes multiples et à indicateurs multiples (MIMIC) (% du PIB)
+WBInfCmpInf,Percent of firms competing against unregistered or informal firms,Pourcentage d'entreprises en concurrence avec des entreprises non enregistrées ou informelles
+WBInfFrmReg,Percent of firms formally registered when they started operations in the country,Pourcentage d'entreprises officiellement enregistrées lorsqu'elles ont démarré leurs activités dans le pays
+WBInfCmpCnst,Percent of firms identifying practices of competitors in the informal sector as a constraint,Pourcentage d'entreprises identifiant les pratiques des concurrents dans le secteur informel comme une contrainte

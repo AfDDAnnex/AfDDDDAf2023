@@ -70,7 +70,7 @@ BEN,Benin,Bénin
 BFA,Burkina Faso,Burkina Faso
 BGD,Bangladesh,Bangladesh
 BGR,Bulgaria,Bulgarie
-BHR,Bahrain,Bahreïn
+BHR,Bahrain*,Bahreïn*
 BHS,Bahamas,Bahamas
 BIH,Bosnia and Herzegovina,Bosnie-Herzégovine
 BLR,Belarus,Bélarus
@@ -92,7 +92,7 @@ COD,DR Congo,RD Congo
 COG,Congo Republic*,République du Congo*
 COL,Colombia,Colombie
 COM,Comoros,Comores
-CPV,Cabo Verde,Cabo Verde
+CPV,Cabo Verde*,Cabo Verde*
 CRI,Costa Rica,Costa Rica
 CUB,Cuba,Cuba
 CYP,Cyprus,Chypre
@@ -179,7 +179,7 @@ MWI,Malawi,Malawi
 MYS,Malaysia,Malaisie
 NAM,Namibia,Namibie
 NER,Niger,Niger
-NGA,Nigeria*,Nigeria*
+NGA,Nigeria,Nigeria
 NIC,Nicaragua,Nicaragua
 NLD,Netherlands,Pays-Bas
 NOR,Norway,Norvège
@@ -192,7 +192,7 @@ PAN,Panama,Panama
 PER,Peru,Pérou
 PHL,Philippines,Philippines
 PLW,Palau,Palaos
-PNG,Papua New Guinea,Papouasie-Nouvelle-Guinée
+PNG,Papua New Guinea*,Papouasie-Nouvelle-Guinée*
 POL,Poland,Pologne
 PRK,DPRK,RPDC
 PRT,Portugal,Portugal
@@ -211,7 +211,7 @@ SLV,El Salvador,El Salvador
 SMR,San Marino,Saint-Marin
 SOM,Somalia,Somalie
 SRB,Serbia,Serbie
-SSD,South Sudan,Soudan du Sud
+SSD,South Sudan*,Soudan du Sud*
 STP,São Tomé and Príncipe,Sao Tomé-et-Principe
 SUR,Suriname*,Suriname*
 SVK,Slovak Republic,République slovaque
