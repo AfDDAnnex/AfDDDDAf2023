@@ -113,11 +113,11 @@ TaxPerGDP,General government taxes as a % of GDP,Impôts des administrations publ
 GovGrantsPerGDP,"General government revenue, grants as a % of GDP","Recettes des administrations publiques, dons en % du PIB"
 GovExpendPerGDP,General government expenditure as a % of GDP,Total des dépenses des administrations publiques en % du PIB
 GovGrossDebtPerGDP,General government gross debt as a % of GDP,Dette brute des administrations publiques en % du PIB
-GovRevUSD,"General government revenue (millions of USD), 2021",Recettes des administrations publiques (millions de dollars US)
-TaxUSD,"General government taxes (millions of USD), 2021",Impôts des administrations publiques (millions de dollars US)
-GovGrantsUSD,"General government revenue, grants (millions of USD), 2021","Recettes des administrations publiques, dons (millions de dollars US)"
-GovExpendUSD,"General government expenditure (millions of USD), 2021",Total des dépenses des administrations publiques (millions de dollars US)
-GovGrossDebtUSD,"General government gross debt (millions of USD), 2021",Dette brute des administrations publiques (millions de dollars US)
+GovRevUSD,General government revenue (millions of USD),Recettes des administrations publiques (millions de dollars US)
+TaxUSD,General government taxes (millions of USD),Impôts des administrations publiques (millions de dollars US)
+GovGrantsUSD,"General government revenue, grants (millions of USD)","Recettes des administrations publiques, dons (millions de dollars US)"
+GovExpendUSD,General government expenditure (millions of USD),Total des dépenses des administrations publiques (millions de dollars US)
+GovGrossDebtUSD,General government gross debt (millions of USD),Dette brute des administrations publiques (millions de dollars US)
 ExpUnproc,Total exports of unprocessed goods (millions of USD),Exportations totales de produits non transformés (millions de dollars US)
 ExpSemiProc,Total exports of semi-processed goods (millions of USD),Exportations totales de produits semi-transformés (millions de dollars US)
 ExpFullyProc,Total exports of fully processed goods (millions of USD),Exportations totales de produits transformés (millions de dollars US)
@@ -249,14 +249,14 @@ ElecAccPct,Percentage of population with access to electricity,Pourcentage de la
 ElecAccUrbPct,Percentage of urban population with access to electricity,Pourcentage de la population urbaine ayant accès à l'électricité
 ElecAccRurPct,Percentage of rural population with access to electricity,Pourcentage de la population rurale ayant accès à l'électricité
 ELECHEAT,CO2 equivalent emissions (kt) from electricity and heat production,Émissions d'équivalent CO2 (kt) de la production d'électricité et de chaleur
-PUBFINSOLAR,Public flows into solar power in millions of 2020 USD,Flux publics vers l'énergie solaire en millions de dollars US de 2020
-PUBFINWIND,Public flows into wind power in millions of 2020 USD,Flux publics vers l'énergie éolienne en millions de dollars US de 2020
-PUBFINGEO,Public flows into geothermal energy in millions of 2020 USD,Flux publics vers l'énergie géothermique en millions de dollars US de 2020
-PUBFINHYDRO,Public flows into renewable hydropower in millions of 2020 USD,Flux publics vers l'hydroélectricité renouvelable en millions de dollars US de 2020
-PUBFINBIOF,Public flows into biofuels in millions of 2020 USD,Flux publics vers les biocarburants en millions de dollars US de 2020
-PUBFINOTHREN,Public flows into renewable energy n.e.s. in millions of 2020 USD,Flux publics vers les énergies renouvelables n.d.a. en millions de dollars US de 2020
-PUBFINNUCL,Public flows into nuclear power in millions of 2020 USD,Flux publics vers le nucléaire en millions de dollars US de 2020
-PUBFINFOSS,Public flows into fossil fuels in millions of 2020 USD,Flux publics vers les combustibles fossiles en millions de dollars US de 2020
+PUBFINSOLAR,Public flows into solar power in millions of 2022 USD,Flux publics vers l'énergie solaire en millions de dollars US de 2022
+PUBFINWIND,Public flows into wind power in millions of 2022 USD,Flux publics vers l'énergie éolienne en millions de dollars US de 2022
+PUBFINGEO,Public flows into geothermal energy in millions of 2022 USD,Flux publics vers l'énergie géothermique en millions de dollars US de 2022
+PUBFINHYDRO,Public flows into renewable hydropower in millions of 2022 USD,Flux publics vers l'hydroélectricité renouvelable en millions de dollars US de 2022
+PUBFINBIOF,Public flows into biofuels in millions of 2022 USD,Flux publics vers les biocarburants en millions de dollars US de 2022
+PUBFINOTHREN,Public flows into renewable energy n.e.s. in millions of 2022 USD,Flux publics vers les énergies renouvelables n.d.a. en millions de dollars US de 2022
+PUBFINNUCL,Public flows into nuclear power in millions of 2022 USD,Flux publics vers le nucléaire en millions de dollars US de 2022
+PUBFINFOSS,Public flows into fossil fuels in millions of 2022 USD,Flux publics vers les combustibles fossiles en millions de dollars US de 2022
 ELECCAPSOLAR,Electric power capacity from solar power in megawatts (MW),Capacité d'énergie électrique solaire en mégawatts (MW)
 ELECCAPWIND,Electric power capacity from wind power in megawatts (MW),Capacité d'énergie électrique éolienne en mégawatts (MW)
 ELECCAPGEO,Electric power capacity from geothermal energy in megawatts (MW),Capacité d'énergie électrique géothermique en mégawatts (MW)
@@ -309,26 +309,26 @@ TrdCstABCont,"Average cost of trade within continent as % of merchandise value, 
 TrdCstABWLD,"Average cost of trade with all countries as % of merchandise value, primary goods","Coût moyen du commerce avec tous les pays en % de la valeur des marchandises, produits primaires"
 TrdCstABInternal,"Average cost of trade within country group as % of merchandise value, primary goods","Coût moyen du commerce au sein du groupe de pays en % de la valeur des marchandises, produits primaires"
 TrdCstABExternal,"Average cost of trade with countries outside the country group as % of merchandise value, primary goods","Coût moyen du commerce avec les pays hors du groupe de pays en % de la valeur des marchandises, produits primaires"
-NatCapLD,"National wealth, agricultural lands (billions of constant 2018 international dollars)","Richesse nationale, terres agricoles (milliards de dollars internationaux constants de 2018)"
-NatCapCO,"National wealth, coal (billions of constant 2018 international dollars)","Richesse nationale, charbon (milliards de dollars internationaux constants de 2018)"
-NatCapCL,"National wealth, cropland (billions of constant 2018 international dollars)","Richesse nationale, terres cultivées (en milliards de dollars internationaux constants de 2018)"
-NatCapFS,"National wealth, fisheries (billions of constant 2018 international dollars)","Richesse nationale, pêche (milliards de dollars internationaux constants de 2018)"
-NatCapFE,"National wealth, forests - ecosystem services (billions of constant 2018 international dollars)","Richesse nationale, forêts - services écosystémiques (milliards de dollars internationaux constants de 2018)"
-NatCapFT,"National wealth, forests - timber (billions of constant 2018 international dollars)","Richesse nationale, forêts - bois (milliards de dollars internationaux constants de 2018)"
-NatCapEN,"National wealth, fossil fuel energy (billions of constant 2018 international dollars)","Richesse nationale, énergie fossile (milliards de dollars internationaux constants de 2018)"
-NatCapHC,"National wealth, human capital (billions of constant 2018 international dollars)","Richesse nationale, capital humain (milliards de dollars internationaux constants de 2018)"
-NatCapMA,"National wealth, mangroves (billions of constant 2018 international dollars)","Richesse nationale, mangroves (milliards de dollars internationaux constants de 2018)"
-NatCapMN,"National wealth, metals and minerals (billions of constant 2018 international dollars)","Richesse nationale, métaux et minéraux (en milliards de dollars internationaux constants de 2018)"
-NatCapNK,"National wealth, natural capital (billions of constant 2018 international dollars)","Richesse nationale, capital naturel (milliards de dollars internationaux constants de 2018)"
-NatCapSS,"National wealth, natural capital - nonrenewable (billions of constant 2018 international dollars)","Richesse nationale, capital naturel - non renouvelable (milliards de dollars internationaux constants de 2018)"
-NatCapRN,"National wealth, natural capital - renewable (billions of constant 2018 international dollars)","Richesse nationale, capital naturel - renouvelable (milliards de dollars internationaux constants de 2018)"
-NatCapGS,"National wealth, natural gas (billions of constant 2018 international dollars)","Richesse nationale, gaz naturel (milliards de dollars internationaux constants de 2018)"
-NatCapFA,"National wealth, net foreign assets (billions of constant 2018 international dollars)","Richesse nationale, avoirs extérieurs nets (en milliards de dollars internationaux constants de 2018)"
-NatCapOL,"National wealth, oil (billions of constant 2018 international dollars)","Richesse nationale, pétrole (milliards de dollars internationaux constants de 2018)"
-NatCapPS,"National wealth, pastureland (billions of constant 2018 international dollars)","Richesse nationale, pâturages (milliards de dollars internationaux constants de 2018)"
-NatCapPK,"National wealth, produced capital (billions of constant 2018 international dollars)","Richesse nationale, capital produit (en milliards de dollars internationaux constants de 2018)"
-NatCapPA,"National wealth, protected areas (billions of constant 2018 international dollars)","Richesse nationale, aires protégées (milliards de dollars internationaux constants de 2018)"
-NatCapTW,"National wealth, total wealth (billions of constant 2018 international dollars)","Richesse nationale, richesse totale (en milliards de dollars internationaux constants de 2018)"
+NatCapLD,"National wealth, agricultural lands (billions of constant 2022 international dollars)","Richesse nationale, terres agricoles (milliards de dollars internationaux constants de 2022)"
+NatCapCO,"National wealth, coal (billions of constant 2022 international dollars)","Richesse nationale, charbon (milliards de dollars internationaux constants de 2022)"
+NatCapCL,"National wealth, cropland (billions of constant 2022 international dollars)","Richesse nationale, terres cultivées (en milliards de dollars internationaux constants de 2022)"
+NatCapFS,"National wealth, fisheries (billions of constant 2022 international dollars)","Richesse nationale, pêche (milliards de dollars internationaux constants de 2022)"
+NatCapFE,"National wealth, forests - ecosystem services (billions of constant 2022 international dollars)","Richesse nationale, forêts - services écosystémiques (milliards de dollars internationaux constants de 2022)"
+NatCapFT,"National wealth, forests - timber (billions of constant 2022 international dollars)","Richesse nationale, forêts - bois (milliards de dollars internationaux constants de 2022)"
+NatCapEN,"National wealth, fossil fuel energy (billions of constant 2022 international dollars)","Richesse nationale, énergie fossile (milliards de dollars internationaux constants de 2022)"
+NatCapHC,"National wealth, human capital (billions of constant 2022 international dollars)","Richesse nationale, capital humain (milliards de dollars internationaux constants de 2022)"
+NatCapMA,"National wealth, mangroves (billions of constant 2022 international dollars)","Richesse nationale, mangroves (milliards de dollars internationaux constants de 2022)"
+NatCapMN,"National wealth, metals and minerals (billions of constant 2022 international dollars)","Richesse nationale, métaux et minéraux (en milliards de dollars internationaux constants de 2022)"
+NatCapNK,"National wealth, natural capital (billions of constant 2022 international dollars)","Richesse nationale, capital naturel (milliards de dollars internationaux constants de 2022)"
+NatCapSS,"National wealth, natural capital - nonrenewable (billions of constant 2022 international dollars)","Richesse nationale, capital naturel - non renouvelable (milliards de dollars internationaux constants de 2022)"
+NatCapRN,"National wealth, natural capital - renewable (billions of constant 2022 international dollars)","Richesse nationale, capital naturel - renouvelable (milliards de dollars internationaux constants de 2022)"
+NatCapGS,"National wealth, natural gas (billions of constant 2022 international dollars)","Richesse nationale, gaz naturel (milliards de dollars internationaux constants de 2022)"
+NatCapFA,"National wealth, net foreign assets (billions of constant 2022 international dollars)","Richesse nationale, avoirs extérieurs nets (en milliards de dollars internationaux constants de 2022)"
+NatCapOL,"National wealth, oil (billions of constant 2022 international dollars)","Richesse nationale, pétrole (milliards de dollars internationaux constants de 2022)"
+NatCapPS,"National wealth, pastureland (billions of constant 2022 international dollars)","Richesse nationale, pâturages (milliards de dollars internationaux constants de 2022)"
+NatCapPK,"National wealth, produced capital (billions of constant 2022 international dollars)","Richesse nationale, capital produit (en milliards de dollars internationaux constants de 2022)"
+NatCapPA,"National wealth, protected areas (billions of constant 2022 international dollars)","Richesse nationale, aires protégées (milliards de dollars internationaux constants de 2022)"
+NatCapTW,"National wealth, total wealth (billions of constant 2022 international dollars)","Richesse nationale, richesse totale (en milliards de dollars internationaux constants de 2022)"
 ENVPDNMABPAR,"Ambient particulate matter, premature deaths","Particules dans l'air ambiant, décés prématurés"
 ENVPDPMABPAR,"Ambient particulate matter, premature deaths (per million population)","Particules dans l'air ambiant, décés prématurés (par million d'habitants)"
 ENVPDPTABPAR,"Ambient particulate matter, premature deaths (% of total)","Particules dans l'air ambiant, décés prématurés (% du total)"
